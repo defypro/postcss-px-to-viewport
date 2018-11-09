@@ -1,0 +1,35 @@
+{
+  "name": "@defy/postcss-px-to-viewport",
+  "version": "0.0.1",
+  "description": "给大佬开发的postcss-px-to-viewport添加exclude配置项，可以用来忽略引用node_modules里面第三方插件的样式",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/defypro/postcss-px-to-viewport.git"
+  },
+  "author": "defy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/defypro/postcss-px-to-viewport/issues"
+  },
+  "homepage": "https://github.com/defypro/postcss-px-to-viewport#readme",
+  "keywords": [
+    "css",
+    "units",
+    "pixel",
+    "px",
+    "viewport",
+    "vw",
+    "vh",
+    "vmin",
+    "vmax",
+    "postcss",
+    "postcss-plugin"
+  ],
+  "dependencies": {
+    "object-assign": "^4.0.1",
+    "postcss": "^5.0.2"
+  }
+}
